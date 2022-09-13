@@ -3,8 +3,8 @@
 
 # update and prepare system for vbox guest additions installation needed for file transfer
 sudo apt update
-sudo apt upgrade
-sudo apt install perl make gcc curl
+sudo apt upgrade -y
+sudo apt install perl make gcc curl -y
 echo ""
 echo ""
 echo "!!!ATTENTION!!!"
@@ -29,7 +29,7 @@ sudo adduser $USER vboxsf
 # install dangerzone
 curl -s https://packagecloud.io/install/repositories/firstlookmedia/code/script.deb.sh | sudo bash
 sudo apt update
-sudo apt install dangerzone
+sudo apt install dangerzone -y
 
 echo ""
 echo "Dangerzone and VBoxGuestAdditions were installed successfully!"
