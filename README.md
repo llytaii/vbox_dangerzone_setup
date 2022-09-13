@@ -1,4 +1,4 @@
-A helper script for installing Dangerzone and VBoxGuestAdditions in Ubuntu 22.04
+A helper script for installing Dangerzone and VBoxGuestAdditions on Ubuntu 22.04 in Virtual Box
 
 ```
 sudo apt install git
